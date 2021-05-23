@@ -8,7 +8,7 @@ Created on Sat May  1 19:16:32 2021
 import numpy as np
 import matplotlib.pyplot as plt
 mu = 0.004
-sigma = 0.01
+sigma = 0.01v
 start_price = 5
 np.random.seed(0)
 returns = np.random.normal(loc=mu, scale=sigma, size=100)
